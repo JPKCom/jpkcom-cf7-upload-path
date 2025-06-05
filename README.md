@@ -1,4 +1,4 @@
-# JPKCom Enable Argon2
+# JPKCom CF7 Upload Path
 
 **Plugin Name:** JPKCom CF7 Upload Path  
 **Plugin URI:** https://github.com/JPKCom/jpkcom-cf7-upload-path  
@@ -40,6 +40,9 @@ For more details visit: https://contactform7.com/file-uploading-and-attachment/
 
 
 ## Changelog
+
+### 1.0.1
+* Updated README.md
 
 ### 1.0.0
 * Initial Release
