@@ -1,0 +1,70 @@
+<h1 id="jpkcom-cf7-upload-path">JPKCom CF7 Upload Path</h1>
+<p><strong>Plugin Name:</strong> JPKCom CF7 Upload Path<br />
+<strong>Plugin URI:</strong>
+https://github.com/JPKCom/jpkcom-cf7-upload-path<br />
+<strong>Description:</strong> Changes the default CF7 upload path string
+to a save value.<br />
+<strong>Version:</strong> 1.0.3<br />
+<strong>Author:</strong> Jean Pierre Kolb <a href="mailto:jpk@jpkc.com"
+class="email">jpk@jpkc.com</a><br />
+<strong>Author URI:</strong> https://www.jpkc.com<br />
+<strong>Contributors:</strong> JPKCom<br />
+<strong>Tags:</strong> Security, Upload, CF7<br />
+<strong>Requires Plugins:</strong> contact-form-7<br />
+<strong>Requires at least:</strong> 6.9<br />
+<strong>Tested up to:</strong> 7.0<br />
+<strong>Requires PHP:</strong> 8.3<br />
+<strong>Network:</strong> true<br />
+<strong>Stable tag:</strong> 1.0.3<br />
+<strong>License:</strong> GPL-2.0-or-later<br />
+<strong>License URI:</strong>
+https://www.gnu.org/licenses/gpl-2.0.html</p>
+<p>Changes the default CF7 upload path string to a save value.</p>
+<h2 id="description">Description</h2>
+<p>Changes the default CF7 upload path string to a save value.</p>
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode php"><code class="sourceCode php"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;?php</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">define</span>( <span class="st">&#39;WPCF7_UPLOADS_TMP_DIR&#39;</span><span class="ot">,</span> <span class="st">&#39;your-custom-tmp-dir&#39;</span> )<span class="ot">;</span></span></code></pre></div>
+<p>For more details visit:
+https://contactform7.com/file-uploading-and-attachment/</p>
+<h3 id="documentation">Documentation</h3>
+<p><strong>API Documentation:</strong> Complete PHPDoc-generated API
+documentation is available at: <a
+href="https://jpkcom.github.io/jpkcom-cf7-upload-path/docs/">https://jpkcom.github.io/jpkcom-cf7-upload-path/docs/</a></p>
+<h2 id="installation">Installation</h2>
+<ol type="1">
+<li>In your admin panel, go to ‘Plugins’ &gt; and click the ‘Add New’
+button.</li>
+<li>Click Upload Plugin and ‘Choose File’, then select the Plugin’s .zip
+file. Click ‘Install Now’.</li>
+<li>Make sure ‘Contact Form 7’ plugin is activated.</li>
+<li>Click ‘Activate’ to use the plugin right away.</li>
+</ol>
+<h2 id="changelog">Changelog</h2>
+<h3 id="section">1.0.3</h3>
+<ul>
+<li>Added secure self-hosted plugin updates via GitHub with SHA256
+checksum verification</li>
+<li>Added an automated release workflow (builds the ZIP, generates the
+manifest and deploys to gh-pages on tag push)</li>
+<li>Raised the minimum WordPress version to 6.9 and “Tested up to” to
+WordPress 7.0</li>
+<li>Switched license metadata to the SPDX identifier
+<code>GPL-2.0-or-later</code> with the HTTPS license URI</li>
+<li>Added PHPDoc-generated API documentation, built and deployed to
+gh-pages on release</li>
+<li>Hardening: enabled <code>declare(strict_types=1)</code>, guarded the
+constant definition and removed the global-scope variable</li>
+</ul>
+<h3 id="section-1">1.0.2</h3>
+<ul>
+<li>Version update</li>
+</ul>
+<h3 id="section-2">1.0.1</h3>
+<ul>
+<li>Updated README.md</li>
+</ul>
+<h3 id="section-3">1.0.0</h3>
+<ul>
+<li>Initial Release</li>
+</ul>
