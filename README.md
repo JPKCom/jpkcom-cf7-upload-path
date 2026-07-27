@@ -3,7 +3,7 @@
 **Plugin Name:** JPKCom CF7 Upload Path  
 **Plugin URI:** https://github.com/JPKCom/jpkcom-cf7-upload-path  
 **Description:** Changes the default CF7 upload path string to a save value.  
-**Version:** 1.0.3  
+**Version:** 1.0.4  
 **Author:** Jean Pierre Kolb <jpk@jpkc.com>  
 **Author URI:** https://www.jpkc.com  
 **Contributors:** JPKCom  
@@ -13,7 +13,7 @@
 **Tested up to:** 7.0  
 **Requires PHP:** 8.3  
 **Network:** true  
-**Stable tag:** 1.0.3  
+**Stable tag:** 1.0.4  
 **License:** GPL-2.0-or-later  
 **License URI:** https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -47,6 +47,17 @@ For more details visit: https://contactform7.com/file-uploading-and-attachment/
 
 
 ## Changelog
+
+### 1.0.4
+* Security: update packages are now verified *before* installation — the verified file is handed to WordPress instead of being downloaded a second time, so the bytes that were checked are the bytes that get installed
+* Security: a missing or unfetchable SHA-256 checksum now aborts the update instead of installing unverified code (previously it silently skipped verification)
+* Security: pinned every GitHub Action to a full commit SHA and added Dependabot with a 7-day cooldown, so a moved tag can no longer change the release build
+* Security: tightened which download the updater claims, so sibling plugins cannot match each other's package
+* Fixed: `sprintf()` calls in the updater bound named arguments to a variadic parameter, which raises `ArgumentCountError` on PHP 8.3
+* Fixed: the "View Details" modal could fail with a `TypeError` when the manifest omitted `requires_plugins`
+* Performance: a failed manifest fetch is now cached for an hour instead of being retried on every admin request
+* Added: CI workflow on every pull request (PHP lint, named-argument check, YAML validation, action-pinning guard)
+* Security: the plugin now writes its own `.htaccess`, `index.php` and `web.config` into the CF7 upload directory and its `.ht.private` parent instead of relying on Contact Form 7 and server configuration; writes are containment-checked against `WP_CONTENT_DIR` and never overwrite existing files
 
 ### 1.0.3
 * Added secure self-hosted plugin updates via GitHub with SHA256 checksum verification
