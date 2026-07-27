@@ -134,7 +134,7 @@
             <dt class="phpdocumentor-table-of-contents__entry -constant -public">
     <a class="" href="namespaces/default.html#constant_JPKCOM_CF7_UPLOAD_PATH_VERSION">JPKCOM_CF7_UPLOAD_PATH_VERSION</a>
     <span>
-        &nbsp;: mixed&nbsp;= &#039;1.0.3&#039;                            </span>
+        &nbsp;: mixed&nbsp;= &#039;1.0.4&#039;                            </span>
 </dt>
 
             <dt class="phpdocumentor-table-of-contents__entry -constant -public">
@@ -148,6 +148,27 @@
 
 
 
+<h4 id="toc-functions">
+    Functions
+    <a href="namespaces/default.html#toc-functions" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h4>
+<dl class="phpdocumentor-table-of-contents">
+            <dt class="phpdocumentor-table-of-contents__entry -function -">
+    <a class="" href="namespaces/default.html#function_jpkcom_cf7_upload_path_guard_files">jpkcom_cf7_upload_path_guard_files()</a>
+    <span>
+                                &nbsp;: array&lt;string, string&gt;    </span>
+</dt>
+<dd>Access guards written into the upload directories.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -function -">
+    <a class="" href="namespaces/default.html#function_jpkcom_cf7_upload_path_protect_dir">jpkcom_cf7_upload_path_protect_dir()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+<dd>Ensure the CF7 temporary upload directory carries its own access protection.</dd>
+
+    </dl>
 
         
     <section class="phpdocumentor-constants">
@@ -176,7 +197,7 @@
     <span class="phpdocumentor-signature__visibility">public</span>
         <span class="phpdocumentor-signature__type">mixed</span>
     <span class="phpdocumentor-signature__name">JPKCOM_CF7_UPLOAD_PATH_VERSION</span>
-    = <span class="phpdocumentor-signature__default-value">&#039;1.0.3&#039;</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;1.0.4&#039;</span>
 </code>
 
 
@@ -218,7 +239,119 @@
     </article>
             </section>
 
-        
+            <section class="phpdocumentor-functions">
+        <h3 class="phpdocumentor-elements__header" id="functions">
+            Functions
+            <a href="namespaces/default.html#functions" class="headerlink"><i class="fas fa-link"></i></a>
+
+        </h3>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_jpkcom_cf7_upload_path_guard_files">
+        jpkcom_cf7_upload_path_guard_files()
+        <a href="namespaces/default.html#function_jpkcom_cf7_upload_path_guard_files" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="jpkcom-cf7-upload-path.php"><a href="files/jpkcom-cf7-upload-path.html">jpkcom-cf7-upload-path.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">83</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Access guards written into the upload directories.</p>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                    <span class="phpdocumentor-signature__name">jpkcom_cf7_upload_path_guard_files</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string, string&gt;</span></code>
+
+    
+    
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="function_jpkcom_cf7_upload_path_guard_files_tags">
+        Tags
+        <a href="namespaces/default.html#function_jpkcom_cf7_upload_path_guard_files_tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">since</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">1.0.4</span>
+                                                                                                        
+                                    </dd>
+                        </dl>
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">array&lt;string, string&gt;</span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>Map of file name =&gt; file contents.</p>
+</section>
+
+            </section>
+
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_jpkcom_cf7_upload_path_protect_dir">
+        jpkcom_cf7_upload_path_protect_dir()
+        <a href="namespaces/default.html#function_jpkcom_cf7_upload_path_protect_dir" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="jpkcom-cf7-upload-path.php"><a href="files/jpkcom-cf7-upload-path.html">jpkcom-cf7-upload-path.php</a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">127</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Ensure the CF7 temporary upload directory carries its own access protection.</p>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                    <span class="phpdocumentor-signature__name">jpkcom_cf7_upload_path_protect_dir</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+        <section class="phpdocumentor-description"><p>This plugin picks the upload location, so it should also guarantee that the
+location is unreachable over HTTP. Until now that guarantee was borrowed from
+two external facts, neither of which this plugin controls:</p>
+<ol>
+<li>Contact Form 7 drops its own <code class="prettyprint">.htaccess</code> into the directory. True today,
+but it is CF7's implementation detail, not a contract.</li>
+<li>Many server configs deny any request path containing a dot-segment, which
+is what actually protects the <code class="prettyprint">.ht.private</code> prefix on nginx — <code class="prettyprint">.htaccess</code>
+is ignored there entirely.</li>
+</ol>
+<p>Note that the <code class="prettyprint">.ht.</code> prefix alone does <em>not</em> invoke Apache's stock
+<code class="prettyprint">&lt;FilesMatch &quot;^\.ht&quot;&gt;</code> rule: that matches the requested file name, not the
+directories above it, so <code class="prettyprint">.ht.private/…/file.pdf</code> is not covered by it.</p>
+<p>Writing the guards here makes the protection a property of this plugin
+instead of an inherited coincidence. Runs on activation and re-verifies once
+a day, so a deleted guard file heals itself.</p>
+</section>
+
+    
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="function_jpkcom_cf7_upload_path_protect_dir_tags">
+        Tags
+        <a href="namespaces/default.html#function_jpkcom_cf7_upload_path_protect_dir_tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                    <dt class="phpdocumentor-tag-list__entry">
+                <span class="phpdocumentor-tag__name">since</span>
+            </dt>
+                            <dd class="phpdocumentor-tag-list__definition">
+                                            <span class="phpdocumentor-tag-link">1.0.4</span>
+                                                                                                        
+                                    </dd>
+                        </dl>
+
+    
+</article>
+            </section>
+
     </section>
                             </div>
             <section data-search-results class="phpdocumentor-search-results phpdocumentor-search-results--hidden">

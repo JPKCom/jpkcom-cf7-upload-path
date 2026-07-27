@@ -16,6 +16,11 @@ Search.appendIndex(
             "summary": "Fetch\u0020and\u0020decode\u0020the\u0020remote\u0020manifest\u0020file.",
             "url": "classes/JPKComCf7UploadPathGitUpdate-JPKComGitPluginUpdater.html#method_get_remote_manifest"
         },                {
+            "fqsen": "\\JPKComCf7UploadPathGitUpdate\\JPKComGitPluginUpdater\u003A\u003Aremember_failure\u0028\u0029",
+            "name": "remember_failure",
+            "summary": "Back\u0020off\u0020after\u0020a\u0020failed\u0020manifest\u0020fetch.",
+            "url": "classes/JPKComCf7UploadPathGitUpdate-JPKComGitPluginUpdater.html#method_remember_failure"
+        },                {
             "fqsen": "\\JPKComCf7UploadPathGitUpdate\\JPKComGitPluginUpdater\u003A\u003Aplugin_info\u0028\u0029",
             "name": "plugin_info",
             "summary": "Provide\u0020detailed\u0020plugin\u0020info\u0020in\u0020the\u0020\u201CView\u0020Details\u201D\u0020modal.",
@@ -75,6 +80,16 @@ Search.appendIndex(
             "name": "WPCF7_UPLOADS_TMP_DIR",
             "summary": "",
             "url": "namespaces/default.html#constant_WPCF7_UPLOADS_TMP_DIR"
+        },                {
+            "fqsen": "\\jpkcom_cf7_upload_path_guard_files\u0028\u0029",
+            "name": "jpkcom_cf7_upload_path_guard_files",
+            "summary": "Access\u0020guards\u0020written\u0020into\u0020the\u0020upload\u0020directories.",
+            "url": "namespaces/default.html#function_jpkcom_cf7_upload_path_guard_files"
+        },                {
+            "fqsen": "\\jpkcom_cf7_upload_path_protect_dir\u0028\u0029",
+            "name": "jpkcom_cf7_upload_path_protect_dir",
+            "summary": "Ensure\u0020the\u0020CF7\u0020temporary\u0020upload\u0020directory\u0020carries\u0020its\u0020own\u0020access\u0020protection.",
+            "url": "namespaces/default.html#function_jpkcom_cf7_upload_path_protect_dir"
         },                {
             "fqsen": "\\",
             "name": "\\",
