@@ -44,7 +44,7 @@ The define is guarded with `! defined()` so an existing definition is not overwr
 
 | Constant | Value | Purpose |
 |----------|-------|---------|
-| `JPKCOM_CF7_UPLOAD_PATH_VERSION` | `'1.0.4'` | Plugin version (sync with header/README/phpdoc.xml) |
+| `JPKCOM_CF7_UPLOAD_PATH_VERSION` | `'1.0.5'` | Plugin version (sync with header/README/phpdoc.xml) |
 | `WPCF7_UPLOADS_TMP_DIR` | path | CF7 temporary upload directory (consumed by Contact Form 7) |
 
 ---
