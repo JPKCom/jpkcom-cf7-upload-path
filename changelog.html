@@ -1,4 +1,17 @@
-<h3 id="section">1.0.4</h3>
+<h3 id="section">1.0.5</h3>
+<ul>
+<li>CI: the release step no longer copies the staging directory into
+itself, so the ZIP has no empty
+<code>jpkcom-cf7-upload-path/jpkcom-cf7-upload-path/</code> folder</li>
+<li>CI: bumped the pinned GitHub Actions (checkout v7.0.1, setup-python
+v7.0.0, action-gh-release v3.0.2, fetch-metadata v3.1.0), still pinned
+to full commit SHAs</li>
+<li>CI: the release ZIP now excludes the development-only
+<code>tests/</code> and <code>tools/</code> directories</li>
+<li>CI: security and regression tests now run on every pull request,
+where a plugin has them</li>
+</ul>
+<h3 id="section-1">1.0.4</h3>
 <ul>
 <li>Security: update packages are now verified <em>before</em>
 installation — the verified file is handed to WordPress instead of being
@@ -29,7 +42,7 @@ Contact Form 7 and server configuration; writes are containment-checked
 against <code>WP_CONTENT_DIR</code> and never overwrite existing
 files</li>
 </ul>
-<h3 id="section-1">1.0.3</h3>
+<h3 id="section-2">1.0.3</h3>
 <ul>
 <li>Added secure self-hosted plugin updates via GitHub with SHA256
 checksum verification</li>
@@ -44,15 +57,15 @@ gh-pages on release</li>
 <li>Hardening: enabled <code>declare(strict_types=1)</code>, guarded the
 constant definition and removed the global-scope variable</li>
 </ul>
-<h3 id="section-2">1.0.2</h3>
+<h3 id="section-3">1.0.2</h3>
 <ul>
 <li>Version update</li>
 </ul>
-<h3 id="section-3">1.0.1</h3>
+<h3 id="section-4">1.0.1</h3>
 <ul>
 <li>Updated README.md</li>
 </ul>
-<h3 id="section-4">1.0.0</h3>
+<h3 id="section-5">1.0.0</h3>
 <ul>
 <li>Initial Release</li>
 </ul>
