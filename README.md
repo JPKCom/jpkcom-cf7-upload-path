@@ -3,7 +3,7 @@
 **Plugin Name:** JPKCom CF7 Upload Path  
 **Plugin URI:** https://github.com/JPKCom/jpkcom-cf7-upload-path  
 **Description:** Changes the default CF7 upload path string to a save value.  
-**Version:** 1.0.5  
+**Version:** 1.0.6  
 **Author:** Jean Pierre Kolb <jpk@jpkc.com>  
 **Author URI:** https://www.jpkc.com  
 **Contributors:** JPKCom  
@@ -13,7 +13,7 @@
 **Tested up to:** 7.0  
 **Requires PHP:** 8.3  
 **Network:** true  
-**Stable tag:** 1.0.5  
+**Stable tag:** 1.0.6  
 **License:** GPL-2.0-or-later  
 **License URI:** https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -47,6 +47,9 @@ For more details visit: https://contactform7.com/file-uploading-and-attachment/
 
 
 ## Changelog
+
+### 1.0.6
+* Added: plugin banners (`assets/banner-1544x500.avif`, `assets/banner-772x250.avif`) — a plain `#3c4955` surface with no lettering. The update manifest already advertised these two URLs, but nothing was published under them, so the plugin card in wp-admin had a broken banner
 
 ### 1.0.5
 * CI: the release step no longer copies the staging directory into itself, so the ZIP has no empty `jpkcom-cf7-upload-path/jpkcom-cf7-upload-path/` folder
