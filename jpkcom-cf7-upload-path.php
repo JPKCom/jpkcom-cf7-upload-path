@@ -3,17 +3,17 @@
 Plugin Name: JPKCom CF7 Upload Path
 Plugin URI: https://github.com/JPKCom/jpkcom-cf7-upload-path
 Description: Changes the default CF7 upload path string to a save value.
-Version: 1.0.6
+Version: 1.0.7
 Author: Jean Pierre Kolb <jpk@jpkc.com>
 Author URI: https://www.jpkc.com
 Contributors: JPKCom
 Tags: Security, Upload, CF7
 Requires Plugins: contact-form-7
 Requires at least: 6.9
-Tested up to: 7.0
+Tested up to: 7.1
 Requires PHP: 8.3
 Network: true
-Stable tag: 1.0.6
+Stable tag: 1.0.7
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 */
@@ -31,7 +31,7 @@ if ( ! defined( constant_name: 'WPINC' ) ) {
  * @since 1.0.3
  */
 if ( ! defined( 'JPKCOM_CF7_UPLOAD_PATH_VERSION' ) ) {
-    define( 'JPKCOM_CF7_UPLOAD_PATH_VERSION', '1.0.6' );
+    define( 'JPKCOM_CF7_UPLOAD_PATH_VERSION', '1.0.7' );
 }
 
 
